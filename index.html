@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Pixel Machine</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="js/start.js"></script>
+
+    <!-- Сообщения об ошибках, предупреждения и промпт-запросы для пользователя -->
+    <div id="popup">
+        <h1>Подождите</h1>
+        <p>Скоро всё будет готово к использованию</p>
+        <a id="usepopup" href="#">OK</a>
+    </div>
+    <div id="overlay"></div>
+
+    <!-- Канвас, в котором происходит всё самое интересное -->
+    <canvas id="canvas" width="1000px" height="800px">Ваш браузер не поддерживает HTML5 тег canvas</canvas>
+    <img draggable="false" id="ric" class="canvas-invert" src="https://reputation.moscow/wp-content/uploads/2019/04/1-1.jpg" alt="Рикардо Милос">
+    <button id="backdoor"></button>
+    <button id="theme">Включить темную тему 🌙</button>
+    <!--Выбиратель цвета, отбражается только с использованием JS-->
+    <div id="picker"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
